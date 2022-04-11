@@ -1,0 +1,31 @@
+.news{
+    margin: auto;
+    width: fit-content;
+    min-height: 100%;
+    background-color: rgb(191, 191, 55)
+}
+
+.new{
+    width: 800px;
+    background-color: aqua;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.newText{
+    width: 70%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.newPic{
+    width: 30%;
+    float: right;
+}
+
+.newPic img{
+    width: 100%;
+}

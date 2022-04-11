@@ -1,23 +1,23 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import RegUser from './RegUser';
+import EditUser from './EditUser';
+import RegBook from './RegBook';
+import EditBook from './EditBook';
+import News from './News';
+import {Route, Routes, Link} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/Libros/RegistroUsuarios" element={<RegUser/>} />
+        <Route path="/Libros/EditarUsuarios" element={<EditUser/>}/>
+        <Route path="/Libros/RegistroLibros" element={<RegBook/>}/>
+        <Route path="/Libros/EditarLibros" element={<EditBook/>}/>
+        <Route path="/Libros/Noticias" element={<News/>}/>
+      </Routes>
     </div>
   );
 }
