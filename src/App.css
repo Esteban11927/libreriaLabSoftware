@@ -11,7 +11,7 @@
   padding: 10px;
 }
 
-input[type=text], input[type=date], input[type=number], input[type=submit], select{
+input[type=text], input[type=date], input[type=number], input[type=submit], input[type=email], input[type=password], select{
   width: 100%;
 }
 

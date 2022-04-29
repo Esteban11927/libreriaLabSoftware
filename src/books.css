@@ -1,0 +1,59 @@
+.books{
+    width: 1200px;
+    background-color: aqua;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+ul.booksQuery{
+    background-color:blue;
+    width: 90%;
+    margin: auto;
+    list-style-type: none;
+}
+
+ul.booksQuery li.book{
+    background-color: blueviolet;
+    width: 48%;
+    margin: 1%;
+    height: 350px;
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+}
+
+div.bookPic img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+
+li.book .bookPic {
+    background-color: aliceblue;
+    height: 50%;
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.bookDescription{
+    height: 50%;
+    background: #00000087;
+}
+
+.bookTitle{
+    height: 40%;
+}
+
+.bookDescriptionText{
+    height: 60%;
+}
+
+.bookDescriptionText p{
+    height: 100%;
+    display: flex;
+}

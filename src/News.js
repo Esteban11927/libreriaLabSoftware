@@ -32,7 +32,7 @@ function News(){
             recommendation: "Esta es la recomendación del libro 1",
             source: "Fuente noticia libro 1",
             imgSrc: "newsTestPic.jpg",
-            id: 0
+            id: 3
         },
         {
             title: "Libro2",
@@ -40,7 +40,7 @@ function News(){
             recommendation: "Esta es la recomendación del libro 2",
             source: "Fuente noticia libro 2",
             imgSrc: "newsTestPic.jpg",
-            id: 1
+            id: 4
         },
         {
             title: "Libro3",
@@ -48,7 +48,7 @@ function News(){
             recommendation: "Esta es la recomendación del libro 3",
             source: "Fuente noticia libro 3",
             imgSrc: "newsTestPic.jpg",
-            id: 2
+            id: 5
         }
     ]
     return (

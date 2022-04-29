@@ -6,6 +6,7 @@ import EditUser from './EditUser';
 import RegBook from './RegBook';
 import EditBook from './EditBook';
 import News from './News';
+import Books from './Books';
 import {Route, Routes, Link} from 'react-router-dom';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/Libros/RegistroLibros" element={<RegBook/>}/>
         <Route path="/Libros/EditarLibros" element={<EditBook/>}/>
         <Route path="/Libros/Noticias" element={<News/>}/>
+        <Route path="/Libros/Libros" element={<Books/>}/>
       </Routes>
     </div>
   );
