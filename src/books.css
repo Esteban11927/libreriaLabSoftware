@@ -57,3 +57,29 @@ li.book .bookPic {
     height: 100%;
     display: flex;
 }
+
+form.search{
+    width: 90%;
+    margin: auto;
+    display: table;
+}
+
+.searchBook{
+    width: 20%;
+    height: fit-content;
+    float: left;
+}
+
+#searchBookInput{
+    height: 40px;
+}
+
+.searchFilter{
+    width: 20%;
+    float: right;
+    height: fit-content;
+}
+
+#searchFilterList{
+    height: 40px;
+}
